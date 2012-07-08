@@ -6,7 +6,8 @@ readme_markdown_from 'lib/ShipIt/Step/Copy.pm';
 readme_pod_from 'lib/ShipIt/Step/Copy.pm';
 githubmeta;
 
-# requires '';
+requires 'ShipIt';
+requires 'parent';
 
 tests 't/*.t';
 author_tests 'xt';

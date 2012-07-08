@@ -1,14 +1,17 @@
 # NAME
 
-ShipIt::Step::Copy -
+ShipIt::Step::Copy - provide simple copy step for module distribution to ShipIt.
 
 # SYNOPSIS
 
-    use ShipIt::Step::Copy;
+    # in your .shipit
+    steps = ..., Copy
+    copy.dir = ~/Dropbox/Public/My-Module
 
 # DESCRIPTION
 
-ShipIt::Step::Copy is
+ShipIt::Step::Copy provides simple copy step to ShipIt. This is useful for backup to another disk or ship to public using DropBox(this usage is shown in SYNOPSIS).
+It is useful for modules you don't want to upload CPAN.
 
 # AUTHOR
 
