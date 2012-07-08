@@ -2,4 +2,5 @@ steps = FindVersion, ChangeVersion, CheckChangeLog, DistTest, Commit, Tag, MakeD
 
 git.tagpattern = rel-%v
 git.push_to = origin
+copy.dir = ~/Dropbox/Public/ShipIt-Step-Copy
 
