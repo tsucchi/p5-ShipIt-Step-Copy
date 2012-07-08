@@ -1,0 +1,17 @@
+NAME
+    ShipIt::Step::Copy -
+
+SYNOPSIS
+      use ShipIt::Step::Copy;
+
+DESCRIPTION
+    ShipIt::Step::Copy is
+
+AUTHOR
+    Takuya Tsuchida <tsucchi {at} cpan.org>
+
+SEE ALSO
+LICENSE
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
